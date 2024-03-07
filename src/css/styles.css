@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 35vw;
+}
+
+.input-group{
+    gap: 1rem;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 50vh;
+}
+
+@media(min-width: 576px){
+    .logo {
+        width: 30vw;
+    }
+}
+
+@media(min-width: 768px){
+    .logo{
+        width: 20vw;
+    }
+}
+@media(min-width: 992px){
+    .logo{
+        width: 15vw;
+    }
+}
